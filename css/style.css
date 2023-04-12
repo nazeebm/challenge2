@@ -1,1 +1,33 @@
-https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
+body
+        {
+            background-color: peachpuff;
+            
+        }
+.bigbox
+        {
+            margin: auto;
+            display: flex;
+            border-radius: 25px;
+            width: 1000px;
+            height: 600px;
+            background-color: blueviolet;
+           
+        }
+.box1
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 25px;
+            background-color: green;
+            position: absolute;top:15rem;
+            margin-left: 2rem;
+        }
+.box2
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 25px;
+            background-color: rgb(65, 139, 65);
+            align-self: center;
+            position: relative;left: 2rem;bottom: 5rem;; 
+            overflow: hidden;

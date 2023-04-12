@@ -1,0 +1,8 @@
+.box 
+    {
+        background-color: peachpuff;
+        width: 600px;
+        height: 90vh;
+        display: flex;
+        margin: auto;
+    }
