@@ -5,87 +5,83 @@ body
         }
 .bigbox
         {
-            margin: auto;
-            display: flex;
+            
             border-radius: 25px;
-            width: 1000px;
-            height: 600px;
+            width: 750px;
+            height: 400px;
             background-color: hsl(226, 43%, 10%);
-           
+            display: grid;
+            /*grid-template-columns: repeat(2,1fr);*/
+            grid-template-columns: 25% auto; 
+            margin: auto; 
+            margin-top: 3rem;
+            padding: 5rem;
         }
-.box1
+.bigbox2
         {
-            height: 200px;
-            width: 200px;
-            border-radius: 25px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 190px;
+            margin-left: 10px;  
+        }
+
+.allbox1     
+        {
+            margin:10px 10px 10px 10px;
+            height: 230px;
+        }
+.frontbox
+        {
+            border-radius: 10px;
             background-color: hsl(235, 46%, 20%);
-            position: absolute;top:15rem;
-            margin-left: 2rem;
+            position: relative;top: 112px;
         }
-.box2
+.backbox
         {
-            height: 200px;
-            width: 200px;
-            border-radius: 25px;
-            background-color:hsl(246, 80%, 60%);
-            align-self: center;
-            position: relative;left: 2rem;bottom: 5rem;; 
-            overflow: hidden;
+            background-color: hsl(246, 80%, 60%);
+            border-radius: 10px;  
+            position: relative;bottom:238px;       
         }
-.box3
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: green;
-                position: absolute;top:8rem;
-                margin-left: 16.5rem;
-            }
-.box4
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: hsl(235, 46%, 20%);
-                align-self: center;
-                position: relative;bottom: 2rem;; 
-                margin-left: 4rem;
-            }
-.box5
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: green;
-                position: absolute;top:8rem;
-                margin-left: 31rem;
-            }
-.box6
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: hsl(235, 46%, 20%);
-                align-self: center;
-                position: relative;bottom: 2rem;; 
-                margin-left: 2rem;
-            }
-.box7
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: green;
-                position: absolute;top:8rem;
-                margin-left:51rem;
-            }
-.box8
-            {
-                height: 200px;
-                width: 200px;
-                border-radius: 25px;
-                background-color: hsl(235, 46%, 20%));
-                align-self: center;
-                position: relative;bottom: 2rem;; 
-                margin-left: 2rem;
-            }
+.allbox2     
+        {
+            margin:10px 10px 10px 20px;
+            height: 125px;           
+        }
+.frontbox2
+        {
+            border-radius: 10px;
+            background-color: hsl(235, 46%, 20%);
+            position: relative;bottom: 6rem;
+        }
+
+.backbox2
+        {
+            background-color: aquamarine;
+            border-radius: 10px;
+        }
+.photo {
+        display: block;
+        margin-left: auto;margin-right: auto;
+        position: relative;top: 1rem;
+        border: 1px;
+        border-color: white;
+        border-style: solid;
+        border-radius: 100%;
+        }
+p,h1,li
+        {
+            margin-left: 10px;
+            color: white;
+            font-family: 'Rubik', sans-serif;
+            list-style: none;
+        }
+.op {opacity: 0.5;}
+.up {position: relative;bottom: 0.5rem;left :1rem}
+.titles {font-weight: 300;margin-top: 0.5rem;font-size: 1.7rem;}
+.boxp2 {margin-top: 45px;}
+.btp {padding-top: 135px;}
+.sm {font-weight: 300;font-size: 0.65rem;}
+.bmr {margin-bottom: 0.87rem;}
+.md {font-weight: 300; font-size: 0.8rem;}
+
+

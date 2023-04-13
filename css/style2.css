@@ -1,0 +1,91 @@
+body
+        {
+            background-color: black;
+            
+        }
+.bigbox
+        {
+            margin: auto;
+            display: flex;
+            border-radius: 25px;
+            width: 1000px;
+            height: 600px;
+            background-color: hsl(226, 43%, 10%);
+           
+        }
+.box1
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 25px;
+            background-color: hsl(235, 46%, 20%);
+            position: absolute;top:15rem;
+            margin-left: 2rem;
+        }
+.box2
+        {
+            height: 200px;
+            width: 200px;
+            border-radius: 25px;
+            background-color:hsl(246, 80%, 60%);
+            align-self: center;
+            position: relative;left: 2rem;bottom: 5rem;; 
+            overflow: hidden;
+        }
+.box3
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: green;
+                position: absolute;top:8rem;
+                margin-left: 16.5rem;
+            }
+.box4
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: hsl(235, 46%, 20%);
+                align-self: center;
+                position: relative;bottom: 2rem;; 
+                margin-left: 4rem;
+            }
+.box5
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: green;
+                position: absolute;top:8rem;
+                margin-left: 31rem;
+            }
+.box6
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: hsl(235, 46%, 20%);
+                align-self: center;
+                position: relative;bottom: 2rem;; 
+                margin-left: 2rem;
+            }
+.box7
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: green;
+                position: absolute;top:8rem;
+                margin-left:51rem;
+            }
+.box8
+            {
+                height: 200px;
+                width: 200px;
+                border-radius: 25px;
+                background-color: hsl(235, 46%, 20%));
+                align-self: center;
+                position: relative;bottom: 2rem;; 
+                margin-left: 2rem;
+            }
