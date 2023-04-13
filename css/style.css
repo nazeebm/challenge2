@@ -24,7 +24,10 @@ body
             grid-template-rows: 190px;
             margin-left: 10px;  
         }
-
+.bigbox21
+        {
+            
+        }
 .allbox1     
         {
             margin:10px 10px 10px 10px;
@@ -34,24 +37,24 @@ body
         {
             border-radius: 10px;
             background-color: hsl(235, 46%, 20%);
-            position: relative;top: 112px;
+            position: relative;top: 130px;
         }
 .backbox
         {
             background-color: hsl(246, 80%, 60%);
             border-radius: 10px;  
-            position: relative;bottom:238px;       
+            position: relative;bottom:235px;       
         }
 .allbox2     
         {
             margin:10px 10px 10px 20px;
-            height: 125px;           
+            height: 128px;  width: 170px;         
         }
 .frontbox2
         {
             border-radius: 10px;
             background-color: hsl(235, 46%, 20%);
-            position: relative;bottom: 6rem;
+            position: relative;bottom: 7rem;
         }
 
 .backbox2
@@ -61,8 +64,8 @@ body
         }
 .photo {
         display: block;
-        margin-left: auto;margin-right: auto;
-        position: relative;top: 1rem;
+        margin-left: 1rem;
+        position: relative;top: 1.5rem;
         border: 1px;
         border-color: white;
         border-style: solid;
@@ -70,18 +73,26 @@ body
         }
 p,h1,li
         {
-            margin-left: 10px;
+            margin-left: 1.5rem;
             color: white;
             font-family: 'Rubik', sans-serif;
             list-style: none;
+            font-size: 18px;
         }
 .op {opacity: 0.5;}
-.up {position: relative;bottom: 0.5rem;left :1rem}
+.up {position: relative;bottom: 0.2rem;left :1rem}
 .titles {font-weight: 300;margin-top: 0.5rem;font-size: 1.7rem;}
 .boxp2 {margin-top: 45px;}
 .btp {padding-top: 135px;}
 .sm {font-weight: 300;font-size: 0.65rem;}
 .bmr {margin-bottom: 0.87rem;}
 .md {font-weight: 300; font-size: 0.8rem;}
+.di {display: inline;}
+.bl {font-weight: 400;}
+.lg {font-weight: 300; font-size: 2.3rem;}
 
+.task {font-size: 12px;display: inline-block;position: relative;top: 0.5rem;}
+.dot {position:absolute;right: 2rem;top: 1.5rem;}
+.hrs {font-size: 35px;font-weight: 300;position: relative;bottom: 1.4rem;}
+.lst {font-size: 10px;font-weight: 300;position: relative;bottom: 3.5rem;opacity:0.5}
 
