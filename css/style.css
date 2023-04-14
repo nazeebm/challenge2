@@ -11,11 +11,10 @@ body
             height: 400px;
             background-color: hsl(226, 43%, 10%);
             display: grid;
-            /*grid-template-columns: repeat(2,1fr);*/
             grid-template-columns: 25% auto; 
             margin: auto; 
             margin-top: 3rem;
-            padding: 5rem;
+            padding: 7rem; padding-right: 10rem;
         }
 .bigbox2
         {
@@ -24,10 +23,7 @@ body
             grid-template-rows: 190px;
             margin-left: 10px;  
         }
-.bigbox21
-        {
-            
-        }
+
 .allbox1     
         {
             margin:10px 10px 10px 10px;
@@ -37,13 +33,13 @@ body
         {
             border-radius: 10px;
             background-color: hsl(235, 46%, 20%);
-            position: relative;top: 130px;
+            position: relative;top: 120px;
         }
 .backbox
         {
             background-color: hsl(246, 80%, 60%);
             border-radius: 10px;  
-            position: relative;bottom:235px;       
+            position: relative;bottom:232px;       
         }
 .allbox2     
         {
@@ -56,7 +52,10 @@ body
             background-color: hsl(235, 46%, 20%);
             position: relative;bottom: 7rem;
         }
-
+.img    {
+        position: relative; left: 6rem;
+        height: 3rem;
+        }
 .backbox2
         {
             background-color: aquamarine;
@@ -95,4 +94,10 @@ p,h1,li
 .dot {position:absolute;right: 2rem;top: 1.5rem;}
 .hrs {font-size: 35px;font-weight: 300;position: relative;bottom: 1.4rem;}
 .lst {font-size: 10px;font-weight: 300;position: relative;bottom: 3.5rem;opacity:0.5}
+.box4{background-color: hsl(15, 100%, 70%);}
+.box6{background-color: hsl(195, 74%, 62%);}
+.box8{background-color: hsl(348, 100%, 68%);}
+.box9{background-color: hsl(145, 58%, 55%);}
+.box11{background-color: hsl(264, 64%, 52%);}
+.box13{background-color: hsl(43, 84%, 65%);}
 
